@@ -1,0 +1,24 @@
+{
+  "name": "uncon-mailer",
+  "version": "1.0.0",
+  "description": "uncon-mailer imports Capital Unconference attendees into a mongo database and sends confirmation email",
+  "main": "lib/uncon-mailer.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https//github.com/joechamm/uncon-mailer-public.git"
+  },
+  "author": "Joseph Cunningham",
+  "license": "ISC",
+  "homepage": "https://github.com/joechamm/uncon-mailer-public#readme",
+  "dependencies": {
+    "mongoose": "^4.4.20",
+    "nodemailer": "^2.4.2",
+    "nodemailer-dkim": "^1.0.4",
+    "validator": "^5.3.0",
+    "watch": "^0.18.0"
+  }
+}

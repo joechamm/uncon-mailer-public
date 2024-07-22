@@ -1,0 +1,14 @@
+{
+  "dbURI":"mongodb://localhost:27017/database"
+  , "domainName":"localhost"
+  , "keySelector":"dkim"
+  , "keyFilename":"/path/to/dkim.key"
+  , "replyFilename": "../local/reply-mail.json"
+  , "errorContactFrom": "admin@localhost"
+  , "errorContactTo": "errors@localhost"
+  , "mailWatchDirectory": "/path/to/Maildir"
+  , "sendMail": {
+      "error": true
+      , "reply": false
+  }
+}
